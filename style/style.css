@@ -1,0 +1,56 @@
+main{
+  min-height:100%;
+  margin-top: 3%;
+}
+
+footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #313131;
+  position: fixed;
+  padding: 1%;
+  color:#fff;
+  text-align: center;
+}
+header{
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: #313131;
+  position: fixed;
+  padding: 1%;
+  color:#fff;
+  text-align: center;
+}
+  
+  .sidebar {
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    float: left;
+    margin-right: 5%;
+  }
+  
+  nav .link {
+    font-size: 12px;
+    color: #000;
+    display: block;
+    padding: 12px;
+    margin: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #fff;
+  }
+  nav .link:hover, .link:visited:hover
+    {
+            color: #fff;
+            text-decoration: none;
+            background-color: #313131;
+    }
+  
+  nav p {
+    margin: 0;
+    padding: 15px;
+  }
