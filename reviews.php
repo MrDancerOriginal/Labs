@@ -35,7 +35,7 @@
         <div class="main-content">
             <h1>Відгуки</h1>
             <?php
-                require_once 'scripts/get.php';
+                require_once 'scripts/admin.php';
             ?>
         </div>    
     </main>
