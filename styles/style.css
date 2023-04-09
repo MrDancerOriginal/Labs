@@ -1,0 +1,95 @@
+main {
+    min-height: 100%;
+    margin-top: 7vh;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #313131;
+    position: fixed;
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    right: 0;
+    top: 0;
+    background: #313131;
+    position: fixed;
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar {
+    color: #fff;
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+    float: left;
+    margin-right: 5%;
+}
+.main-content{
+    float:right;
+    width: 80%;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+.navigation a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navigation li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: block;
+}
+
+.navigation li:last-child {
+    border-bottom: none;
+}
+
+.navigation li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navigation li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+nav p {
+    margin: 0;
+    padding: 15px;
+}
+
+.card{
+    background-color: #f1f1f1;
+    color : black;
+    border: 2px solid gray;
+    padding: 1%;
+    width: 250px;
+    border-radius: 5%;
+    display:inline-block;
+    margin: 5px;
+}
+.card .text{
+    padding-bottom: 5px;
+    border-bottom: #ffffff;
+    border-bottom: 1px solid black;
+}
